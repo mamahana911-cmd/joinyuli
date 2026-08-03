@@ -18,7 +18,9 @@ body{
     background:#f5f7fb;
     display:flex;
     justify-content:center;
-    padding:20px;
+    align-items:flex-start;
+    min-height:100vh;
+    padding:16px;
 }
 
 .container{
@@ -27,6 +29,7 @@ body{
     background:#fff;
     border-radius:16px;
     padding:24px;
+margin-bottom:20px;
     box-shadow:0 8px 30px rgba(0,0,0,.08);
 }
 
@@ -36,7 +39,9 @@ body{
 }
 
 .logo img{
-    width:90px;
+    width:120px;
+    max-width:35%;
+    height:auto;
 }
 
 h1{
@@ -69,6 +74,11 @@ input,select,textarea{
     border-radius:10px;
     font-size:15px;
     outline:none;
+}
+
+textarea{
+    resize:vertical;
+    min-height:90px;
 }
 
 input:focus,
